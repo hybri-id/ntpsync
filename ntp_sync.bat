@@ -28,5 +28,5 @@ IF ERRORLEVEL 0 SET M=0
 IF ERRORLEVEL 1 SET M=1
 	if %M%==0 (
 		echo OK
-	) else echo "No se ha podido sincronizar el reloj" && pause
+	) else echo "Sync error" && pause
 exit
