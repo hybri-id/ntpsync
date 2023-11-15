@@ -14,12 +14,13 @@ if "%ERRORLEVEL%"=="0" (
 	goto continue
 )
 
+::Stop the service if it's running
 :continue
 net stop w32time
 w32tm /unregister
 w32tm /register
 
-:: Sync system clock with ntp server
+:: Start&Sync system clock with ntp server
 :not_running
 net start w32time
 w32tm /resync /nowait
