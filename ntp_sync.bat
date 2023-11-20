@@ -31,7 +31,7 @@ w32tm /register
 :: Start&Sync system clock with ntp server
 :not_running
 net start w32time
-w32tm /config /syncfromflags:manual /manualpeerlist:time.nist.gov /reliable:yes /update
+w32tm /config /syncfromflags:manual /manualpeerlist:"0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org 3.pool.ntp.org time.nist.gov time.windows.com" /reliable:yes /update
 echo.
 w32tm /resync /nowait /rediscover
 echo.
