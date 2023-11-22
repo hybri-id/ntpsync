@@ -10,7 +10,7 @@
   <p align="center">
     This is a small tool to resync Windows system clock with ntp server!    
     <br />
-    <a href="https://github.com/hybri-id/ntpsync/raw/main/ntp_sync.bat" target="_blank">
+    <a href="https://github.com/hybri-id/ntpsync/archive/refs/heads/main.zip" target="_blank">
     <br />
     <img src="https://img.shields.io/badge/DOWNLOAD-blue" alt="Download" width="190" height="60">
     </a>
